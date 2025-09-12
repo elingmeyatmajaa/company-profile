@@ -32,7 +32,8 @@ Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan,
 ![Landing Page](./public/screenshots/landing_page.png)
 
 ### Contact Page
-![Contact Page](./public/screenshots/contact_page.png)
+![Contact Page](<img width="1905" height="1677" alt="contact_page" src="https://github.com/user-attachments/assets/57feee7e-c398-47da-831c-b261929a5c1d" />
+)
 
 ### Email Service
 ![Email Service](./public/screenshots/email.png)
