@@ -36,10 +36,10 @@ Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan,
 
 
 ### Email Service
-<img width="400" height="100" alt="email" src="https://github.com/user-attachments/assets/e481f6db-f2e9-40c8-8996-0f50fab3ef6c" />
+<img width="200" height="200" alt="email" src="https://github.com/user-attachments/assets/e481f6db-f2e9-40c8-8996-0f50fab3ef6c" />
 
 ### Authentication Page
-![Email Service](./public/screenshots/list_contact.png)
+<img width="200" height="200" alt="list_contact" src="https://github.com/user-attachments/assets/bc3ae44c-f3cc-43f8-a2f8-28da5ea74879" />
 
 
 ---
