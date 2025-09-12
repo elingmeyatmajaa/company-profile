@@ -1,0 +1,11 @@
+{
+    "name": "AdminSosialMedia",
+    "alias": "adminsosialmedia",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminSosialMedia\\Providers\\AdminSosialMediaServiceProvider"
+    ],
+    "files": []
+}

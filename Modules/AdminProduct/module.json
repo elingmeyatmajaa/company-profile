@@ -1,0 +1,11 @@
+{
+    "name": "AdminProduct",
+    "alias": "adminproduct",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminProduct\\Providers\\AdminProductServiceProvider"
+    ],
+    "files": []
+}

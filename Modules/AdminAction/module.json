@@ -1,0 +1,11 @@
+{
+    "name": "AdminAction",
+    "alias": "adminaction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminAction\\Providers\\AdminActionServiceProvider"
+    ],
+    "files": []
+}

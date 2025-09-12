@@ -1,0 +1,11 @@
+{
+    "name": "ClientHome",
+    "alias": "clienthome",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ClientHome\\Providers\\ClientHomeServiceProvider"
+    ],
+    "files": []
+}

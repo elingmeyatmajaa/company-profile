@@ -1,0 +1,11 @@
+{
+    "name": "AdminLandingPage",
+    "alias": "adminlandingpage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminLandingPage\\Providers\\AdminLandingPageServiceProvider"
+    ],
+    "files": []
+}

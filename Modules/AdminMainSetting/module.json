@@ -1,0 +1,11 @@
+{
+    "name": "AdminMainSetting",
+    "alias": "adminmainsetting",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminMainSetting\\Providers\\AdminMainSettingServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "AdminContact",
+    "alias": "admincontact",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminContact\\Providers\\AdminContactServiceProvider"
+    ],
+    "files": []
+}
