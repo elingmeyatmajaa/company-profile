@@ -82,7 +82,7 @@ pnpm run dev
 ```bash
 Gunakan akun berikut untuk login ke sistem:
 
-http://company-profile.test
+http://company-profile.test/login
 
 Email: developer@developer.com
 Password: 12345678
