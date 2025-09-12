@@ -29,10 +29,17 @@ Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan,
 ## 📸 Preview
 
 ### Landing Page
-![Landing Page](./public/screenshots/landing-page.png)
+![Landing Page](./public/screenshots/landing_page.png)
 
 ### Contact Page
-![Contact Page](./public/screenshots/contact-page.png)
+![Contact Page](./public/screenshots/contact_page.png)
+
+### Email Service
+![Email Service](./public/screenshots/email.png)
+
+### Authentication Page
+![Email Service](./public/screenshots/list_contact.png)
+
 
 ---
 
