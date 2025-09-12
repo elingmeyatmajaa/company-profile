@@ -31,3 +31,23 @@ Clone repository ini:
 ```bash
 git clone https://github.com/elingmeyatmajaa/company-profile.git
 cd company-profile
+composer install
+pnpm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+pnpm run dev
+```
+
+## 📧 Konfigurasi Email (Mailtrap)
+```bash
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=your_username
+MAIL_PASSWORD=your_password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="Company Profile"
+```
+
