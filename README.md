@@ -1,4 +1,3 @@
-<img width="1712" height="766" alt="email" src="https://github.com/user-attachments/assets/ee7eeda3-bb5a-4d47-8a1e-9bb471d67cee" /># Company Profile Website
 
 Project **Company Profile Website** dibangun menggunakan **Laravel** dengan dukungan **Inertia.js (React/JSX)** dan modularisasi dengan **Nwidart Modules**.  
 Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan, blog, dan form kontak yang terkoneksi ke database serta email (via Mailtrap).
@@ -25,13 +24,13 @@ Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan,
 
 
 ---
-<img width="1712" height="766" alt="email" src="https://github.com/user-attachments/assets/f7789a4f-a30c-4931-ad1d-f502fc5b7b39" />
-
 
 ## 📸 Preview
 
 ### Landing Page
 ![Landing Page](./public/screenshots/landing_page.png)
+<img width="200" height="800" alt="landing_page" src="https://github.com/user-attachments/assets/d4f8bf67-56bd-4fd4-adb3-06a03badb7cf" />
+
 
 ### Contact Page
 ![Contact Page](<img width="1905" height="1677" alt="contact_page" src="https://github.com/user-attachments/assets/57feee7e-c398-47da-831c-b261929a5c1d" />
