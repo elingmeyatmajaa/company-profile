@@ -3,7 +3,8 @@ Project **Company Profile Website** dibangun menggunakan **Laravel** dengan duku
 Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan, blog, dan form kontak yang terkoneksi ke database serta email (via Mailtrap).
 
 ### ⚡ Fitur
-- **Landing page dinamis**
+- **Landing page responsive**
+- **Manajemen Authentication**
 - **Manajemen Blog**
 - **Manajemen Produk & Layanan**
 - **Form Kontak (integrasi Mailtrap)**
