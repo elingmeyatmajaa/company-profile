@@ -63,14 +63,14 @@ cp .env.example .env
 # Generate application key
 php artisan key:generate
 
-# Import database
+# Import database in file company-profile
 mysql -u root -p your_database < db_landingpage.sql
 
 # Linux User
 composer global require cpriego/valet-linux
 valet install
 
-#The link command may also be used to serve your Laravel sites
+#The link command may also be used to serve your Laravel sites company-profile.test
 valet link 
 
 
@@ -80,6 +80,9 @@ pnpm run dev
 
 ## 🔑 Akun Demo
 ```bash
+
+#Landing Page
+http://company-profile.test
 
 
 Gunakan akun berikut untuk login ke sistem:
