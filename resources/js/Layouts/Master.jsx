@@ -63,85 +63,84 @@ export default function Master({ children }) {
                 "read-product",
                 "read-sosial-media",
                 "read-page",
-                "read-contact"
-
+                "read-contact",
             ],
 
             current: false,
             children: [
-                 {
+                {
                     name: __("Contact"),
-                    permission: 'read-contact',
+                    permission: "read-contact",
                     href: _route("admin.contact.index"),
                 },
                 {
                     name: __("Setting"),
-                    permission: 'read-setting',
+                    permission: "read-setting",
                     href: _route("admin.main-setting.index"),
                 },
                 {
                     name: __("Introduction"),
-                    permission: 'read-introduction',
+                    permission: "read-introduction",
                     href: _route("admin.introduction.index"),
                 },
 
                 {
                     name: __("About"),
-                    permission: 'read-about',
+                    permission: "read-about",
                     href: _route("admin.about.index"),
                 },
 
                 {
                     name: __("About Point"),
-                    permission: 'read-about-point',
+                    permission: "read-about-point",
                     href: _route("admin.about-point.index"),
                 },
                 {
                     name: __("Category Blog"),
-                    permission: 'read-category-blog',
+                    permission: "read-category-blog",
                     href: _route("admin.category-blog.index"),
                 },
 
                 {
                     name: __("Header Blog"),
-                    permission: 'read-blog-title',
+                    permission: "read-blog-title",
                     href: _route("admin.blog-title.index"),
                 },
 
                 {
                     name: __("Blog"),
-                    permission: 'read-blog',
+                    permission: "read-blog",
                     href: _route("admin.blog.index"),
                 },
                 {
                     name: __("Header Service"),
-                    permission: 'read-service-title',
+                    permission: "read-service-title",
                     href: _route("admin.service-title.index"),
                 },
                 {
                     name: __("Service"),
-                    permission: 'read-service',
+                    permission: "read-service",
                     href: _route("admin.service.index"),
                 },
                 {
                     name: __("Header Product"),
-                    permission: 'read-product-title',
+                    permission: "read-product-title",
                     href: _route("admin.product-title.index"),
                 },
                 {
                     name: __("Product"),
-                    permission: 'read-product',
+                    permission: "read-product",
 
                     href: _route("admin.product.index"),
                 },
                 {
                     name: __("Sosial Media"),
-                    permission: 'read-sosial-media',
+                    permission: "read-sosial-media",
                     href: _route("admin.sosial-media.index"),
                 },
                 {
                     name: __("Page"),
-                    permission: 'read-page',
+                    permission: "read-page",
                     href: _route("admin.page.index"),
                 },
             ],
@@ -377,12 +376,15 @@ export default function Master({ children }) {
                 <div className="hidden md:fixed md:inset-y-0 md:flex md:w-64 md:flex-col">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex flex-grow flex-col overflow-y-auto border-r border-gray-200 bg-white pt-5">
-                        <div className="flex flex-shrink-0 items-center px-4">
+                        <div className="flex items-center space-x-3 px-4 py-2">
                             <img
                                 className="h-8 w-auto"
                                 src={main.logo}
                                 alt={main.title}
                             />
+                            <h1 className="text-lg font-semibold text-gray-900">
+                                {main.title}
+                            </h1>
                         </div>
                         <div className="mt-5 flex flex-grow flex-col">
                             <nav
