@@ -32,7 +32,7 @@ export default function Footer() {
                             <div key={item.name} className="pb-6">
                                 <Link
                                     href={item.href}
-                                    className="text-lg leading-6 text-gray-600 "
+                                    className="text-lg leading-6 text-white "
                                 >
                                     {item.name}
                                 </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
 
                 <div>
                     <p className="text-3xl font-bold text-center mt-10 text-gray-400">
-                        PT. ABC
+                        Horizon Tech
                     </p>
                 </div>
 
@@ -64,8 +64,8 @@ export default function Footer() {
 
                     <div className="mt-8  pt-8 md:flex md:items-center md:justify-between">
                         <div className="flex space-x-6 md:order-2">
-                            <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-                                &copy; Designed by PT. ABC
+                            <p className="mt-8 text-xs leading-5 text-white md:order-1 md:mt-0">
+                                &copy; Designed by Horizon Tech
                             </p>
                         </div>
                     </div>
