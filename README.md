@@ -70,6 +70,12 @@ create database db_landingpage
 # Import database in file company-profile
 mysql -u root -p db_landingpage < db_landingpage.sql
 
+# Create a symlink from public/storage to storage/app/public.
+php artisan storage:link
+
+# Download Asset & Copy Asset in directory storage/app/public 
+[2025-09.zip](https://github.com/user-attachments/files/22308631/2025-09.zip)
+
 # Linux User
 composer global require cpriego/valet-linux
 valet install
@@ -83,7 +89,7 @@ pnpm run dev
 ```
 
 ### ASSET 
-[Website asset 1.zip](https://github.com/user-attachments/files/22308469/Website.asset.1.zip)
+[2025-09.zip](https://github.com/user-attachments/files/22308634/2025-09.zip)
 
 
 ## 🔑 Akun Demo
