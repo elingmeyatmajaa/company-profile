@@ -29,7 +29,7 @@ Website ini berfungsi sebagai profil perusahaan, dengan halaman produk, layanan,
 ## 📸 Preview
 
 ### Landing Page
-<img width="200" height="800" alt="landing_page" src="https://github.com/user-attachments/assets/d4f8bf67-56bd-4fd4-adb3-06a03badb7cf" />
+<img width="200" height="800" alt="company-profile test_ (4)" src="https://github.com/user-attachments/assets/a1f5181a-c4ff-445b-9585-9447d57efaa7" />
 
 
 ### Contact Page
