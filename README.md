@@ -64,8 +64,11 @@ cp .env.example .env
 # Generate application key
 php artisan key:generate
 
+#create database di mysql
+create database db_landingpage
+
 # Import database in file company-profile
-mysql -u root -p your_database < db_landingpage.sql
+mysql -u root -p db_landingpage < db_landingpage.sql
 
 # Linux User
 composer global require cpriego/valet-linux
