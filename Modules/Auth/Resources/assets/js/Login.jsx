@@ -23,21 +23,29 @@ export default function Login({ errors }) {
         post('/login')
     }
 
-    return (
-        <>
-          
-            <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 ">
-                <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-                  
-                    <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-                        Sign in to your account
-                    </h2>
-                </div>
+ return (
+    <>
+        <Head title="Login" />
 
-                <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="min-h-screen flex">
+            {/* LEFT - FORM */}
+            <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-100 px-6">
+                <div className="w-full max-w-md bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-2xl">
+
+                    {/* HEADER */}
+                    <div className="text-center mb-6">
+                        <h2 className="text-2xl font-bold text-gray-800">
+                            Welcome Back 👋
+                        </h2>
+                        <p className="text-sm text-gray-500">
+                            Sign in to continue to your dashboard
+                        </p>
+                    </div>
+
+                    {/* FORM */}
                     <Form onSubmit={handleSubmit}>
                         <FormGroup>
-                            <FormLabel>Email</FormLabel>
+                            <FormLabel>Email Address</FormLabel>
                             <TextForm
                                 value={data.email}
                                 onChange={(e) => setData('email', e.target.value)}
@@ -54,36 +62,56 @@ export default function Login({ errors }) {
                             />
                         </FormGroup>
 
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <CheckForm
-                                    checked={data.remember}
-                                    onChange={(e) => setData('remember', !data.remember)}
-                                    id="remember"
-                                >
-                                    Remember me
-                                </CheckForm>
-                            </div>
-                        </div>
+                        {/* REMEMBER + FORGOT */}
+                        <div className="flex items-center justify-between mt-4">
+                            <CheckForm
+                                checked={data.remember}
+                                onChange={() => setData('remember', !data.remember)}
+                                id="remember"
+                            >
+                                Remember me
+                            </CheckForm>
 
-                        <div className="text-sm leading-6">
-                            <Link>
-                                Forgot Password
+                            <Link
+                                href="/forgot-password"
+                                className="text-sm text-sky-600 hover:underline"
+                            >
+                                Forgot Password?
                             </Link>
                         </div>
-                        <div>
+
+                        {/* BUTTON */}
                         <button
-                                            className="mt-4 flex w-full justify-center rounded-md bg-sky-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-
-                                            type="submit"
-
-                                        >
-                                            {__('Sign In')}
-                                        </button>
-                        </div>
+                            className="mt-6 flex w-full justify-center rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white shadow-lg hover:bg-sky-500 transition"
+                            type="submit"
+                        >
+                            Sign In
+                        </button>
                     </Form>
                 </div>
             </div>
-        </>
-    )
+
+            {/* RIGHT - IMAGE */}
+            <div className="hidden lg:flex w-1/2 relative">
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                    alt="Login Visual"
+                    className="w-full h-full object-cover"
+                />
+
+                {/* OVERLAY */}
+                <div className="absolute inset-0 bg-sky-900/70 flex items-center justify-center">
+                    <div className="text-center text-white px-10">
+                        <h1 className="text-3xl font-bold mb-4">
+                            Professional Management System 🚀
+                        </h1>
+                        <p className="text-sm opacity-90">
+                            Manage your data faster, safer, and more efficiently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </>
+);
 }
